@@ -14,6 +14,5 @@ class CashRegister
   def apply_discount(discount=0)
   
   
-  
   end
 end
