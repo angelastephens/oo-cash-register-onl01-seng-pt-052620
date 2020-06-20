@@ -8,7 +8,7 @@ class CashRegister
   end
   
   def add_item(title, price, quantity=1)
-    @add_item 
+    self.
     
   end
 end
