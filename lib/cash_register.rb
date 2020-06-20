@@ -16,7 +16,7 @@ class CashRegister
     if discount == 0
       puts "No discount has been applied"
     elsif
-    @total != @total * @discount / 1000
+    @total -= @total * @discount / 1000
     puts "After the discount, your total comes to $#{@total}."
   end
 end
