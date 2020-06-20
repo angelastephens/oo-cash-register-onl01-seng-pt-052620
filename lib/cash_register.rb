@@ -14,7 +14,7 @@ class CashRegister
   
   def apply_discount(discount=0)
     if discount != 0
-      self.total ()
+      self.total = ()
       puts "No discount has been applied"
     elsif
     @total -= @total * @discount / 1000
