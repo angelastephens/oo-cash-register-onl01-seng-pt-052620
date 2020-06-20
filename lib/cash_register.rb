@@ -20,4 +20,10 @@ class CashRegister
     puts "After the discount, your total comes to $ #{@total}."
   end
 end
+
+
+  def void_last_transaction
+    self.total = self.total - self.last_transaction
+  end
+  
 end
