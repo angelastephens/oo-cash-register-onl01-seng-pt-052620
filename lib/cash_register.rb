@@ -16,7 +16,7 @@ class CashRegister
     if discount == 0
       return "No discount has been applied"
     end
-    @total -= @total * @discount / 100
+    @total -= @total * @discount / 1000
     return "After the discount, your total comes to $#{@total}."
   end
 end
