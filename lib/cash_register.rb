@@ -14,10 +14,10 @@ class CashRegister
   
   def apply_discount(discount=0)
     if discount == 0
-      return "No discount has been applied"
+      puts "No discount has been applied"
     elsif
-    @total -= @total * @discount / 1000
-    return "After the discount, your total comes to $#{@total}."
+    @total += @total * @discount / 1000
+    puts "After the discount, your total comes to $#{@total}."
   end
 end
 end
