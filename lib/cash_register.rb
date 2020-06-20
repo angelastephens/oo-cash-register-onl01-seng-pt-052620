@@ -20,3 +20,4 @@ class CashRegister
     return "After the discount, your total comes to $#{@total}."
   end
 end
+end
