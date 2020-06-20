@@ -1,4 +1,4 @@
-class Cash_register
+class CashRegister
   
   def initialize(cash_register)
     @cash_register=cash_register
