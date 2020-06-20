@@ -17,11 +17,7 @@ class CashRegister
      self.total = (total *((100 - discount.to_f) / 100).to_i
      "After the discount, your total comes to $ #{@total}."
     else
-   "No discount has been applied"
+      "No discount has been applied"
    end
 end
-
-
-  
-  
 end
