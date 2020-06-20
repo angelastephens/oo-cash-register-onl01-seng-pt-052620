@@ -1,6 +1,6 @@
 class Cash_register
   
-  def initialize(Cash_register)
+  def initialize
     @cash_register=cash_register
     @total=0
   
