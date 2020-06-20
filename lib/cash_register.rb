@@ -20,4 +20,8 @@ class CashRegister
       "There is no discount to been applied"
    end
 end
+
+  def void_last_transaction
+    @total -= @void_last_transaction
+  end 
 end
