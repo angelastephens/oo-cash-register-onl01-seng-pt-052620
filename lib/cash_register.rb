@@ -5,7 +5,9 @@ class CashRegister
     @total=0
     @discount=discount
     @items=[]
-  
   end
+  
+  def add_item(title, price)
+    @add_item
   
 end
